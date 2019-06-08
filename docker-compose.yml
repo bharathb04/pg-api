@@ -1,8 +1,8 @@
-version: '1'
+version: '3.5'
 services:
    app:
      image: node:pg-api
      ports:
        - "3000:3000"
      volumes:
-       - /home/ec2-user/bharath:/home/pg-api
+       - /home/ec2-user/bharath:/home/pg-api/DB
