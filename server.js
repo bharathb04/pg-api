@@ -1,7 +1,7 @@
 let express = require('express');
 let pg = require('pg');
 let cors = require('cors');
-let dbconfig = require('./dbconfig');
+let dbconfig = require('./DB/dbconfig');
 
 const PORT = 3000;
 
