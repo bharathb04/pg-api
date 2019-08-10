@@ -5,4 +5,4 @@ services:
      ports:
        - "3000:3000"
      volumes:
-       - /home/ec2-user/bharath:/home/pg-api/DB
+       - /home/ec2-user/DB:/home/pg-api/DB
